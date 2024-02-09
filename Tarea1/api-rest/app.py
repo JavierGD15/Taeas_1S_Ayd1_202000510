@@ -10,6 +10,9 @@ def hello_world():
 def nombre():
     return 'Javier Alexander Giron Donis'
 
+@app.route('/carnet')
+def carnet():
+    return '202000510'
 
 
 if __name__ == '__main__':
